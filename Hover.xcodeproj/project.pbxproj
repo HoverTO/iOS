@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2600754B5D016F79D67A92AC /* Pods_HoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E930E32227FDD6210721548 /* Pods_HoverTests.framework */; };
+		32258F38966C0EFE8AAA341F /* Pods_HoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF470BF07B44644708F5556F /* Pods_HoverUITests.framework */; };
+		52DD65EE822235D990A6C80A /* Pods_Hover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5214DD08C3D4D9F247EC56E7 /* Pods_Hover.framework */; };
+		5D2ECA331E554CC400B5AA13 /* UserDataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2ECA321E554CC400B5AA13 /* UserDataFunctions.swift */; };
+		5D2ECA351E554E6100B5AA13 /* SignUpOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2ECA341E554E6100B5AA13 /* SignUpOneViewController.swift */; };
+		5D2ECA371E55509F00B5AA13 /* SignUpTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2ECA361E55509F00B5AA13 /* SignUpTwoViewController.swift */; };
 		5D3ED4391E52C4960068F551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED4381E52C4960068F551 /* AppDelegate.swift */; };
 		5D3ED43B1E52C4970068F551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED43A1E52C4960068F551 /* ViewController.swift */; };
 		5D3ED43E1E52C4970068F551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3ED43C1E52C4970068F551 /* Main.storyboard */; };
@@ -14,6 +20,19 @@
 		5D3ED4431E52C4970068F551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3ED4411E52C4970068F551 /* LaunchScreen.storyboard */; };
 		5D3ED44E1E52C4970068F551 /* HoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED44D1E52C4970068F551 /* HoverTests.swift */; };
 		5D3ED4591E52C4970068F551 /* HoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED4581E52C4970068F551 /* HoverUITests.swift */; };
+		5D6E1C981E53BBE100CCEF27 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E1C971E53BBE100CCEF27 /* Spot.swift */; };
+		5D6E1C9C1E54027000CCEF27 /* MatchProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E1C9B1E54027000CCEF27 /* MatchProfileController.swift */; };
+		5D6E1C9E1E54047900CCEF27 /* MatchProfilePage1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E1C9D1E54047900CCEF27 /* MatchProfilePage1Controller.swift */; };
+		5D6E1CA01E54DE9D00CCEF27 /* LoadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E1C9F1E54DE9D00CCEF27 /* LoadPageViewController.swift */; };
+		5D6E1CA21E54E52100CCEF27 /* WelcomeToHoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E1CA11E54E52100CCEF27 /* WelcomeToHoverViewController.swift */; };
+		5DA00D031E55604F00ABA906 /* CommuteSetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D021E55604F00ABA906 /* CommuteSetupController.swift */; };
+		5DA00D051E5560C400ABA906 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA00D041E5560C400ABA906 /* CoreLocation.framework */; };
+		5DA00D071E56866E00ABA906 /* MatchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D061E56866E00ABA906 /* MatchPageViewController.swift */; };
+		5DA00D091E5687E100ABA906 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D081E5687E100ABA906 /* MatchCell.swift */; };
+		5DA00D101E56A55500ABA906 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DA00D0F1E56A55500ABA906 /* Users.json */; };
+		5DA00D121E590EEB00ABA906 /* UserEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D111E590EEB00ABA906 /* UserEmailViewController.swift */; };
+		5DA00D141E5AA92C00ABA906 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D131E5AA92C00ABA906 /* User.swift */; };
+		5DA00D161E5BCB1D00ABA906 /* UserPrefOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA00D151E5BCB1D00ABA906 /* UserPrefOneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17EB3E415235F3570BE095B0 /* Pods-HoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoverUITests/Pods-HoverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		18EDC45FBC5F7741E5693512 /* Pods-HoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoverTests/Pods-HoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5214DD08C3D4D9F247EC56E7 /* Pods_Hover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2ECA321E554CC400B5AA13 /* UserDataFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataFunctions.swift; sourceTree = "<group>"; };
+		5D2ECA341E554E6100B5AA13 /* SignUpOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpOneViewController.swift; sourceTree = "<group>"; };
+		5D2ECA361E55509F00B5AA13 /* SignUpTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTwoViewController.swift; sourceTree = "<group>"; };
 		5D3ED4351E52C4960068F551 /* Hover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3ED4381E52C4960068F551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D3ED43A1E52C4960068F551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,25 @@
 		5D3ED4541E52C4970068F551 /* HoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3ED4581E52C4970068F551 /* HoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverUITests.swift; sourceTree = "<group>"; };
 		5D3ED45A1E52C4970068F551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6E1C971E53BBE100CCEF27 /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		5D6E1C9B1E54027000CCEF27 /* MatchProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchProfileController.swift; sourceTree = "<group>"; };
+		5D6E1C9D1E54047900CCEF27 /* MatchProfilePage1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchProfilePage1Controller.swift; sourceTree = "<group>"; };
+		5D6E1C9F1E54DE9D00CCEF27 /* LoadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadPageViewController.swift; sourceTree = "<group>"; };
+		5D6E1CA11E54E52100CCEF27 /* WelcomeToHoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeToHoverViewController.swift; sourceTree = "<group>"; };
+		5DA00D021E55604F00ABA906 /* CommuteSetupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommuteSetupController.swift; sourceTree = "<group>"; };
+		5DA00D041E5560C400ABA906 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5DA00D061E56866E00ABA906 /* MatchPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchPageViewController.swift; sourceTree = "<group>"; };
+		5DA00D081E5687E100ABA906 /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		5DA00D0F1E56A55500ABA906 /* Users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Users.json; path = Assets.xcassets/Users.json; sourceTree = "<group>"; };
+		5DA00D111E590EEB00ABA906 /* UserEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEmailViewController.swift; sourceTree = "<group>"; };
+		5DA00D131E5AA92C00ABA906 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5DA00D151E5BCB1D00ABA906 /* UserPrefOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPrefOneViewController.swift; sourceTree = "<group>"; };
+		7E930E32227FDD6210721548 /* Pods_HoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6E5359D98619C95BE61657 /* Pods-Hover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hover/Pods-Hover.debug.xcconfig"; sourceTree = "<group>"; };
+		925B7E72572AAE839E5ECD46 /* Pods-HoverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoverUITests/Pods-HoverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD9B738AF87DC592E05EC329 /* Pods-HoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoverTests/Pods-HoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF470BF07B44644708F5556F /* Pods_HoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC72417DE04FB6CD60E43E5 /* Pods-Hover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hover.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hover/Pods-Hover.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA00D051E5560C400ABA906 /* CoreLocation.framework in Frameworks */,
+				52DD65EE822235D990A6C80A /* Pods_Hover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2600754B5D016F79D67A92AC /* Pods_HoverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +115,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32258F38966C0EFE8AAA341F /* Pods_HoverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212680D28B3EC97A14DCE53E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA00D041E5560C400ABA906 /* CoreLocation.framework */,
+				5214DD08C3D4D9F247EC56E7 /* Pods_Hover.framework */,
+				7E930E32227FDD6210721548 /* Pods_HoverTests.framework */,
+				CF470BF07B44644708F5556F /* Pods_HoverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D3ED42C1E52C4960068F551 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +140,8 @@
 				5D3ED44C1E52C4970068F551 /* HoverTests */,
 				5D3ED4571E52C4970068F551 /* HoverUITests */,
 				5D3ED4361E52C4960068F551 /* Products */,
+				9821D9273F888D4484A5967F /* Pods */,
+				212680D28B3EC97A14DCE53E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +158,27 @@
 		5D3ED4371E52C4960068F551 /* Hover */ = {
 			isa = PBXGroup;
 			children = (
+				5DA00D0F1E56A55500ABA906 /* Users.json */,
 				5D3ED4381E52C4960068F551 /* AppDelegate.swift */,
 				5D3ED43A1E52C4960068F551 /* ViewController.swift */,
+				5D6E1C9B1E54027000CCEF27 /* MatchProfileController.swift */,
+				5D6E1C9D1E54047900CCEF27 /* MatchProfilePage1Controller.swift */,
+				5D6E1CA11E54E52100CCEF27 /* WelcomeToHoverViewController.swift */,
+				5D6E1C9F1E54DE9D00CCEF27 /* LoadPageViewController.swift */,
+				5D2ECA321E554CC400B5AA13 /* UserDataFunctions.swift */,
+				5D2ECA341E554E6100B5AA13 /* SignUpOneViewController.swift */,
+				5D2ECA361E55509F00B5AA13 /* SignUpTwoViewController.swift */,
+				5DA00D021E55604F00ABA906 /* CommuteSetupController.swift */,
 				5D3ED43C1E52C4970068F551 /* Main.storyboard */,
 				5D3ED43F1E52C4970068F551 /* Assets.xcassets */,
 				5D3ED4411E52C4970068F551 /* LaunchScreen.storyboard */,
 				5D3ED4441E52C4970068F551 /* Info.plist */,
+				5D6E1C971E53BBE100CCEF27 /* Spot.swift */,
+				5DA00D061E56866E00ABA906 /* MatchPageViewController.swift */,
+				5DA00D081E5687E100ABA906 /* MatchCell.swift */,
+				5DA00D111E590EEB00ABA906 /* UserEmailViewController.swift */,
+				5DA00D131E5AA92C00ABA906 /* User.swift */,
+				5DA00D151E5BCB1D00ABA906 /* UserPrefOneViewController.swift */,
 			);
 			path = Hover;
 			sourceTree = "<group>";
@@ -125,6 +201,19 @@
 			path = HoverUITests;
 			sourceTree = "<group>";
 		};
+		9821D9273F888D4484A5967F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C6E5359D98619C95BE61657 /* Pods-Hover.debug.xcconfig */,
+				CFC72417DE04FB6CD60E43E5 /* Pods-Hover.release.xcconfig */,
+				18EDC45FBC5F7741E5693512 /* Pods-HoverTests.debug.xcconfig */,
+				BD9B738AF87DC592E05EC329 /* Pods-HoverTests.release.xcconfig */,
+				925B7E72572AAE839E5ECD46 /* Pods-HoverUITests.debug.xcconfig */,
+				17EB3E415235F3570BE095B0 /* Pods-HoverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D3ED45D1E52C4970068F551 /* Build configuration list for PBXNativeTarget "Hover" */;
 			buildPhases = (
+				AAF0F0BE61289A9C59C2B9E0 /* [CP] Check Pods Manifest.lock */,
 				5D3ED4311E52C4960068F551 /* Sources */,
 				5D3ED4321E52C4960068F551 /* Frameworks */,
 				5D3ED4331E52C4960068F551 /* Resources */,
+				E725E22BCADAB495790867E2 /* [CP] Embed Pods Frameworks */,
+				6D90E862201E7CFF407709A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D3ED4601E52C4970068F551 /* Build configuration list for PBXNativeTarget "HoverTests" */;
 			buildPhases = (
+				E0F1C749D5AD974D25E4FE10 /* [CP] Check Pods Manifest.lock */,
 				5D3ED4451E52C4970068F551 /* Sources */,
 				5D3ED4461E52C4970068F551 /* Frameworks */,
 				5D3ED4471E52C4970068F551 /* Resources */,
+				275ACF95A7CC6E71882BB230 /* [CP] Embed Pods Frameworks */,
+				8945D97A27522EBD9C6B8663 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D3ED4631E52C4970068F551 /* Build configuration list for PBXNativeTarget "HoverUITests" */;
 			buildPhases = (
+				DC04F8B1A8CF6714F53B7D99 /* [CP] Check Pods Manifest.lock */,
 				5D3ED4501E52C4970068F551 /* Sources */,
 				5D3ED4511E52C4970068F551 /* Frameworks */,
 				5D3ED4521E52C4970068F551 /* Resources */,
+				47AD8C252C542BE30E624D2E /* [CP] Embed Pods Frameworks */,
+				BBB32A009BEA29946C2CBE30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA00D101E56A55500ABA906 /* Users.json in Resources */,
 				5D3ED4431E52C4970068F551 /* LaunchScreen.storyboard in Resources */,
 				5D3ED4401E52C4970068F551 /* Assets.xcassets in Resources */,
 				5D3ED43E1E52C4970068F551 /* Main.storyboard in Resources */,
@@ -254,12 +353,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		275ACF95A7CC6E71882BB230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoverTests/Pods-HoverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47AD8C252C542BE30E624D2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoverUITests/Pods-HoverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D90E862201E7CFF407709A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hover/Pods-Hover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8945D97A27522EBD9C6B8663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoverTests/Pods-HoverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF0F0BE61289A9C59C2B9E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB32A009BEA29946C2CBE30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoverUITests/Pods-HoverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC04F8B1A8CF6714F53B7D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F1C749D5AD974D25E4FE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E725E22BCADAB495790867E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hover/Pods-Hover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D3ED4311E52C4960068F551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D3ED43B1E52C4970068F551 /* ViewController.swift in Sources */,
+				5DA00D071E56866E00ABA906 /* MatchPageViewController.swift in Sources */,
+				5DA00D031E55604F00ABA906 /* CommuteSetupController.swift in Sources */,
+				5D6E1CA01E54DE9D00CCEF27 /* LoadPageViewController.swift in Sources */,
+				5D6E1C9C1E54027000CCEF27 /* MatchProfileController.swift in Sources */,
+				5DA00D091E5687E100ABA906 /* MatchCell.swift in Sources */,
+				5DA00D121E590EEB00ABA906 /* UserEmailViewController.swift in Sources */,
+				5DA00D161E5BCB1D00ABA906 /* UserPrefOneViewController.swift in Sources */,
+				5D2ECA351E554E6100B5AA13 /* SignUpOneViewController.swift in Sources */,
+				5DA00D141E5AA92C00ABA906 /* User.swift in Sources */,
+				5D6E1CA21E54E52100CCEF27 /* WelcomeToHoverViewController.swift in Sources */,
+				5D2ECA371E55509F00B5AA13 /* SignUpTwoViewController.swift in Sources */,
+				5D2ECA331E554CC400B5AA13 /* UserDataFunctions.swift in Sources */,
+				5D6E1C9E1E54047900CCEF27 /* MatchProfilePage1Controller.swift in Sources */,
+				5D6E1C981E53BBE100CCEF27 /* Spot.swift in Sources */,
 				5D3ED4391E52C4960068F551 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,9 +661,11 @@
 		};
 		5D3ED45E1E52C4970068F551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6E5359D98619C95BE61657 /* Pods-Hover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hover.Hover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +675,11 @@
 		};
 		5D3ED45F1E52C4970068F551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC72417DE04FB6CD60E43E5 /* Pods-Hover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hover.Hover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +689,7 @@
 		};
 		5D3ED4611E52C4970068F551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EDC45FBC5F7741E5693512 /* Pods-HoverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +704,7 @@
 		};
 		5D3ED4621E52C4970068F551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9B738AF87DC592E05EC329 /* Pods-HoverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +719,7 @@
 		};
 		5D3ED4641E52C4970068F551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925B7E72572AAE839E5ECD46 /* Pods-HoverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HoverUITests/Info.plist;
@@ -475,6 +733,7 @@
 		};
 		5D3ED4651E52C4970068F551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EB3E415235F3570BE095B0 /* Pods-HoverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HoverUITests/Info.plist;
@@ -505,6 +764,7 @@
 				5D3ED45F1E52C4970068F551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D3ED4601E52C4970068F551 /* Build configuration list for PBXNativeTarget "HoverTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +773,7 @@
 				5D3ED4621E52C4970068F551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D3ED4631E52C4970068F551 /* Build configuration list for PBXNativeTarget "HoverUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +782,7 @@
 				5D3ED4651E52C4970068F551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

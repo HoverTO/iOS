@@ -1,0 +1,6 @@
+framework module Pods_Hover {
+  umbrella header "Pods-Hover-umbrella.h"
+
+  export *
+  module * { export * }
+}
